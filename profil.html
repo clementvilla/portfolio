@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="Profil. Je suis actuellement étudiant en 2<sup>ème</sup> année du DUT Métiers du Multimédia et de l'Internet à Montbéliard. Et ce qui me passionne le plus dans cette formation est le webdesign.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="accueil">
+        <h1>Clément Villa</h1>
+    </a>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container-wrap">
+    <div class="A_propos">            <!--remplace la classe métier-->
+        <h2>
+            À propos
+        </h2>
+    </div>
+</div>
+
+<section id="presentation">
+    <div class="container-wrap">
+        <div class="gallerys">
+            <div class="column">
+                <img class="imgMoi" src="img/moi.jpg" alt="photo de moi">
+
+                <a href="http://www.clementvilla.fr/img/CV_Clement_VILLA.pdf" download="Mon CV">
+                    <button type="button" value="download">Mon CV</button>
+                </a>
+            </div>
+
+            <div class="column">
+                <div class="textemoi">
+                    <p class="moi">
+                        Hey, je m'appelle Clément et voici mon portfolio.
+                    </p>
+                    <p class="moi">
+                        Je suis actuellement étudiant en 2<sup>ème</sup> année du DUT Métiers du Multimédia et de
+                        l'Internet à Montbéliard. Et ce qui me passionne le plus dans cette formation est le webdesign.
+                    </p>
+                    <p class="moi">
+                        N'hésitez pas à regarder mes différentes créations !
+                    </p>
+                    <p class="moi">
+                        Ah et j'ai failli oublier, vous pouvez aussi télécharger <a
+                            href="http://www.clementvilla.fr/img/CV_Clement_VILLA.pdf" download="Mon CV"> mon CV ! </a>
+                    </p>
+                    <p class="moi">
+                        Si vous avez des interrogations ou que vous voulez des précisions n'hésitez pas à me contacter
+                        par mail
+                        <a class="mail" href="mailto:clementvillapro@gmail.com">clementvillapro@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+</body>
+</html>

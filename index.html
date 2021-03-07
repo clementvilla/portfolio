@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="Bienvenue sur le portfolio de Clément Villa, étudiant en MMI passionné par le webdesign ! Vous retrouverez les différents projets que j'ai créé au cours de mes deux années dans ce DUT.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+<body>
+
+<header>
+    <h1 class="main">Clément Villa</h1>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="designer_graphique">
+    <div class="container-wrap">
+        <div class="metier">
+            <h2>
+                Webdesigner
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section id="réalisations">
+    <div class="container-wrap">
+        <div class="gallery">
+            <div class="column">
+
+                <div data-aos="zoom-out-right"
+                     data-aos-offset="300"
+                     data-aos-easing="ease-in-sine"
+                     data-aos-duration="500">
+                    <a class="a-img-txt" href="FAQ.html">
+                        <img class="a-img" src="img/faqpetit.jpg" alt="faq MMI">
+                        <span class="a-txt c1">FAQ MMI</span>
+                    </a>
+                    <h6>
+                        FAQ MMI
+                    </h6>
+                </div>
+
+                <div data-aos="zoom-out-right"
+                     data-aos-offset="300"
+                     data-aos-easing="ease-in-sine"
+                     data-aos-delay="300"
+                     data-aos-duration="500">
+                    <a class="a-img-txt" href="MeetGraf.html">
+                        <img class="a-img" src="img/meetgrafpetit.jpg" alt="MeetGraf">
+                        <span class="a-txt c1">Meet&Graf</span>
+                    </a>
+                    <h6>
+                        Meet&Graf
+                    </h6>
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="padding">
+                    <div data-aos="zoom-out-left"
+                         data-aos-offset="300"
+                         data-aos-easing="ease-in-sine"
+                         data-aos-delay="300"
+                         data-aos-duration="500">
+                        <a class="a-img-txt" href="refresh.html">
+                            <img class="a-img" src="img/pull_to_refreshpetit.jpg" alt="refresh">
+                            <span class="a-txt c1">Refresh</span>
+                        </a>
+                    </div>
+                    <h6>
+                        Refresh
+                    </h6>
+                </div>
+
+
+                <div data-aos="zoom-out-left"
+                     data-aos-offset="300"
+                     data-aos-easing="ease-in-sine"
+                     data-aos-delay="400"
+                     data-aos-duration="500">
+                    <a class="a-img-txt" href="Indiglu.html">
+                        <img class="a-img" src="img/indiglupetit.jpg" alt="Indiglu">
+                        <span class="a-txt c1">Indiglu</span>
+                    </a>
+                    <h6>
+                        Indiglu
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+
+    <div class="reseaux">
+        <a href="https://www.instagram.com/clement__villa/">@Instagram</a>
+        <a href="https://www.linkedin.com/in/cl%C3%A9ment-villa-517543196/">@LinkedIn</a>
+    </div>
+
+    <p class="footer">
+        Toutes les créations ci-dessus sont la propriété de Clément Villa
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+</body>
+
+</html>

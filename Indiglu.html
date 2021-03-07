@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Indiglu</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="Indiglu. Indiglu est un projet individuel que j'ai réalisé au cours de ma première année du DUT MMI à Montbéliard. Le but de ce projet était de faire une refonte graphique du site Indiglu.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="accueil">
+        <h1>Clément Villa</h1>
+    </a>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="Titre">
+    <h3>Indiglu</h3>
+    <h4>Projet d'études</h4>
+</section>
+
+<div class="texte">
+    <p class="TexteProjet">
+        Indiglu est un projet individuel que j'ai réalisé au cours de ma première année du DUT MMI à Montbéliard. Le but
+        de ce projet était de faire une refonte graphique du site Indiglu.
+    </p>
+    <p class="TexteProjet">
+        Afin d'y arriver, plusieurs travaux ont été effectués tels qu'un brief, analyse du logo existant, analyse des
+        concurents, création de logo ainsi que la création de la maquette gaphique.
+    </p>
+</div>
+
+<section id="projets">
+    <p class="Titre">Maquette du site</p>
+
+    <img src="img/Indiglu.png" alt="Indiglu Mockup" class="GdImgProjet"/>
+
+    <div class="galleryProjet">
+        <div class="container-wrap">
+            <div class="gallery">
+                <div class="column">
+                    <img class="imgProjet" src="img/indiglu1.jpg" alt="Indiglu haut">
+                </div>
+
+                <div class="column">
+                    <img class="imgProjet" src="img/indiglu2.jpg" alt="Indiglu milieu">
+                    <img class="imgProjet" src="img/indiglu3.jpg" alt="Indiglu bas">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="TexteProjet">
+        Si vous voulez regarder le dossier qui a été rendu, comprenant les recherches du logo, les analyses des logos
+        concurrents, le brief ainsi que la mise en situation, vous pouvez le télécharger ici :
+        <a href="http://www.clementvilla.fr/img/Indiglu.pdf" download="Mon CV">
+            <button type="button" value="download">Dossier Indiglu</button>
+        </a>
+    </p>
+
+</section>
+
+
+<section id="autres projets">
+    <div class="container-wrap">
+        <div class="projets">
+            <p class="autresProjets">
+                Découvrez d'autres projets
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="column">
+
+                <a class="a-img-txt" href="refresh.html">
+                    <img class="a-img" src="img/pull_to_refreshpetit.jpg" alt="Refresh">
+                    <span class="a-txt c1">Refresh</span>
+                </a>
+
+                <a class="a-img-txt" href="MeetGraf.html">
+                    <img class="a-img" src="img/meetgrafpetit.jpg" alt="MeetGraf">
+                    <span class="a-txt c1">Meet&Graf</span>
+                </a>
+            </div>
+
+            <div class="column">
+
+                <a class="a-img-txt" href="FAQ.html">
+                    <img class="a-img" src="img/faqpetit.jpg" alt="FAQ MMI lien">
+                    <span class="a-txt c1">FAQ MMI</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="scroll_to_top" href="#">
+        <p class="scroll_to_top">Retour vers le haut</p>
+    </a>
+
+</section>
+
+<footer>
+    <p class="footer">
+        Toutes les créations ci-dessus sont la propriété de Clément Villa
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+
+</body>
+
+</html>

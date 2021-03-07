@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ MMI</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="FAQ MMI. FAQ MMI Montbéliard est un projet collectif que j'ai réalisé avec deux camarades, Tanguy Claude et Benjamin Schinkel. Dans ce projet, mon rôle était de m'occuper de la partie design du site.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="accueil">
+        <h1>Clément Villa</h1>
+    </a>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="Titre">
+    <h3>FAQ MMI</h3>
+    <h4>Projet d'études</h4>
+</section>
+
+<div class="texte">
+    <p class="TexteProjet">
+        La création du site FAQ MMI Montbéliard est un projet collectif que j'ai réalisé avec deux camarades, Tanguy
+        Claude et Benjamin Schinkel. Dans ce projet, mon rôle était de m'occuper de la partie design du site.
+    </p>
+    <p class="TexteProjet">
+        Notre projet consistait donc à créer une FAQ pour le BUT MMI (Métiers du Multimédia et de l'Internet) de
+        Montbéliard, afin que les futurs étudiants se posant des questions sur cette formation, aient des réponses
+        claires et rapides.
+    </p>
+    <p class="TexteProjet">
+        En tant que designer, je me suis donc occupé de créer la charte graphique de la FAQ MMI Montbéliard :
+        l'harmonie colorée, le logo, la typographie ainsi que la maquette.
+    </p>
+</div>
+
+<section id="projets">
+    <p class="Titre">Maquette ordinateur</p>
+
+    <img src="img/faqMMI.png" alt="FAQ MMI Mockup" class="GdImgProjet"/>
+
+    <div class="galleryProjet">
+        <div class="container-wrap">
+            <div class="gallery">
+                <div class="column">
+                    <img class="imgProjet" src="img/faqAccueil.jpg" alt="FAQ MMI Accueil">
+                    <img class="imgProjet" src="img/faqQuestions.jpg" alt="FAQ MMI Questions">
+                </div>
+
+                <div class="column">
+                    <img class="imgProjet" src="img/faqChatbot.jpg" alt="Chatbot">
+                    <img class="imgProjet" src="img/faqReponses.jpg" alt="FAQ MMI Reponses">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="Titre">Maquette mobile</p>
+
+    <img src="img/faqMMIPortable.png" alt="FAQ MMI Portable Mockup" class="faqMMIPortable"/>
+
+    <div class="galleryProjetPortable">
+        <div class="container-wrap">
+            <div class="galleryPortable">
+                <div class="column">
+                    <img class="imgProjetPortable" src="img/faqAccueilPortable.jpg" alt="FAQ MMI Accueil">
+                    <img class="imgProjetPortable" src="img/faqQuestionsPortable.jpg" alt="FAQ MMI Questions">
+                </div>
+
+                <div class="column">
+                    <img class="imgProjetPortable" src="img/faqChatbotPortable.jpg" alt="Chatbot">
+                    <img class="imgProjetPortable" src="img/faqReponsesPortable.jpg" alt="FAQ MMI Reponses">
+                </div>
+
+                <div class="column">
+                    <img class="imgProjetPortable" src="img/faqMenuPortable.jpg" alt="Menu">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="autres projets">
+    <div class="container-wrap">
+        <div class="projets">
+            <p class="autresProjets">
+                Découvrez d'autres projets
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="column">
+
+                <a class="a-img-txt" href="refresh.html">
+                    <img class="a-img" src="img/pull_to_refreshpetit.jpg" alt="Refresh">
+                    <span class="a-txt c1">Refresh</span>
+                </a>
+
+                <a class="a-img-txt" href="MeetGraf.html">
+                    <img class="a-img" src="img/meetgrafpetit.jpg" alt="MeetGraf">
+                    <span class="a-txt c1">Meet&Graf</span>
+                </a>
+            </div>
+
+            <div class="column">
+
+                <a class="a-img-txt" href="Indiglu.html">
+                    <img class="a-img" src="img/indiglupetit.jpg" alt="Indiglu">
+                    <span class="a-txt c1">Indiglu</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="scroll_to_top" href="#">
+        <p class="scroll_to_top">Retour vers le haut</p>
+    </a>
+
+</section>
+
+<footer>
+    <p class="footer">
+        Toutes les créations ci-dessus sont la propriété de Clément Villa
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+</body>
+
+</html>

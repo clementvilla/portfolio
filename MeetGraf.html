@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MeetAndGraf</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="Meet&Graf. Meet&Graf est un projet collectif que j'ai réalisé avec deux camarades, Tanguy Claude et Benjamin Schinkel. Dans ce projet, mon rôle était de m'occuper de la partie design du site.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="accueil">
+        <h1>Clément Villa</h1>
+    </a>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="Titre">
+    <h3>Meet&Graf</h3>
+    <h4>Projet d'études</h4>
+</section>
+
+<div class="texte">
+    <p class="TexteProjet">
+        La création du site Meet&Graf est un projet collectif que j'ai réalisé avec deux camarades, Tanguy
+        Claude et Benjamin Schinkel. Dans ce projet, mon rôle était de m'occuper de la partie design du site.
+    </p>
+    <p class="TexteProjet">
+        Notre but était de trouver un concept innovant. Après plusieurs semaines de réflexion, nous avons pensé à la
+        problématique qu'ont les graffeurs à exercer leur art en toute légalité. Nous avons donc décider de créer un
+        réseau social réservé aux graffeurs dans lequel ils pourraient se partager les spots autorisés et aussi partager
+        leurs oeuvres.
+    </p>
+    <p class="TexteProjet">
+        En tant que designer, je me suis donc occupé de créer la charte graphique du réseau social Meet&Graf :
+        choix de l'harmonie colorée, création du logo, choix de la typographie ainsi que la création de la maquette.
+    </p>
+</div>
+
+<p class="Titre">Maquette mobile</p>
+
+<img src="img/mockup_meetGraf.png" alt="Meet&Graf Mockup" class="faqMMIPortable"/>
+
+<div class="galleryProjetPortable">
+    <div class="container-wrap">
+        <div class="galleryPortable">
+            <div class="column">
+                <img class="imgProjetPortable" src="img/MeetGraf_connexion.jpg" alt="Meet&Graf Connexion">
+                <img class="imgProjetPortable" src="img/MeetGraf_creer_publication.jpg"
+                     alt="Meet&Graf Créer Publication">
+                <img class="imgProjetPortable" src="img/MeetGraf_recherche.jpg" alt="Meet&Graf Recherche">
+                <img class="imgProjetPortable" src="img/MeetGraf_story.jpg" alt="Meet&Graf Story">
+            </div>
+
+            <div class="column">
+                <img class="imgProjetPortable" src="img/MeetGraf_accueil.jpg" alt="Meet&Graf Accueil">
+                <img class="imgProjetPortable" src="img/MeetGraf_modifier_post.jpg" alt="Meet&Graf Modifier Son Poste">
+                <img class="imgProjetPortable" src="img/MeetGraf_messages.jpg" alt="Meet&Graf Messages">
+                <img class="imgProjetPortable" src="img/MeetGraf_carte_evenement.jpg" alt="Meet&Graf Carte">
+            </div>
+
+            <div class="column">
+                <img class="imgProjetPortable" src="img/MeetGraf_mon_compte.jpg" alt="Meet&Graf Story">
+                <img class="imgProjetPortable" src="img/MeetGraft_validation_publication.jpg"
+                     alt="Meet&Graf validation publication">
+                <img class="imgProjetPortable" src="img/MeetGraf_discussion.jpg" alt="Meet&Graf Discussion">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="autres projets">
+    <div class="container-wrap">
+        <div class="projets">
+            <p class="autresProjets">
+                Découvrez d'autres projets
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="column">
+
+                <a class="a-img-txt" href="refresh.html">
+                    <img class="a-img" src="img/pull_to_refreshpetit.jpg" alt="Refresh">
+                    <span class="a-txt c1">Refresh</span>
+                </a>
+
+                <a class="a-img-txt" href="FAQ.html">
+                    <img class="a-img" src="img/faqpetit.jpg" alt="Faq MMI">
+                    <span class="a-txt c1">FAQ MMI</span>
+                </a>
+            </div>
+
+            <div class="column">
+
+                <a class="a-img-txt" href="Indiglu.html">
+                    <img class="a-img" src="img/indiglupetit.jpg" alt="Indiglu">
+                    <span class="a-txt c1">Indiglu</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="scroll_to_top" href="#">
+        <p class="scroll_to_top">Retour vers le haut</p>
+    </a>
+
+</section>
+
+<footer>
+    <p class="footer">
+        Toutes les créations ci-dessus sont la propriété de Clément Villa
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+</body>
+
+</html>

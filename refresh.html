@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Refresh</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="Description"
+          content="Refresh. Refresh est un projet personnel ayant pour but d'expérimenter les animations de chargement sur Adobe XD.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.clementvilla.fr/img/logo.png">
+
+</head>
+
+
+<body>
+
+<header>
+    <a href="index.html" class="accueil">
+        <h1>Clément Villa</h1>
+    </a>
+
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="survol">ACCUEIL</a></li>
+            <li><a href="profil.html" class="survol">À PROPOS</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section id="Titre">
+    <h3>Refresh</h3>
+    <h4>Projet personnel</h4>
+</section>
+
+
+<div class="texte">
+    <p class="TexteProjet">
+        Refresh est un projet personnel ayant pour but d'expérimenter les animations de chargement sur Adobe XD.
+    </p>
+    <p class="TexteProjet">
+        Cette animation pourrait notamment être utilisé dans un réseau social, où sur une application visant un public
+        aimant les animations provoquant une certaine distraction. L'inspiration afin de créer cette animation m'est
+        venue après une vidéo vue sur YouTube.
+    </p>
+</div>
+
+<div class="galleryRefresh">
+    <div class="container-wrap">
+        <div class="gallery">
+            <div class="column">
+                <p class="mockupTitre">Mockup non animé</p>
+                <img class="refresh" src="img/pull_to_refresh_rognepetit.jpg" alt="refresh">
+            </div>
+
+            <div class="column">
+                <p class="mockupTitre">Mockup animé</p>
+                <video controls autoplay class="videoRefresh" src="video/Refresh.mp4"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="autres projets">
+    <div class="container-wrap">
+        <div class="projets">
+            <p class="autresProjets">
+                Découvrez d'autres projets
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="column">
+
+                <a class="a-img-txt" href="FAQ.html">
+                    <img class="a-img" src="img/faqpetit.jpg" alt="faq MMI">
+                    <span class="a-txt c1">FAQ MMI</span>
+                </a>
+
+                <a class="a-img-txt" href="MeetGraf.html">
+                    <img class="a-img" src="img/meetgrafpetit.jpg" alt="MeetGraf">
+                    <span class="a-txt c1">Meet&Graf</span>
+                </a>
+            </div>
+
+            <div class="column">
+
+                <a class="a-img-txt" href="Indiglu.html">
+                    <img class="a-img" src="img/indiglupetit.jpg" alt="Indiglu">
+                    <span class="a-txt c1">Indiglu</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="scroll_to_top" href="#">
+        <p class="scroll_to_top">Retour vers le haut</p>
+    </a>
+
+</section>
+
+
+<footer>
+    <p class="footer">
+        Toutes les créations ci-dessus sont la propriété de Clément Villa
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/animation.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        disable: function () {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+    });
+</script>
+
+</body>
+
+</html>
